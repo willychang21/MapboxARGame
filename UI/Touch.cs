@@ -30,8 +30,8 @@ public class touchdis文開 : MonoBehaviour
                        
                         
 
-                        Debug.Log("Panel文開打開");
-                        UIManager.Instance.ShowPanel("Panel文開");
+                        Debug.Log("Panel");
+                        UIManager.Instance.ShowPanel("Panel");
                     
                 }
                 
