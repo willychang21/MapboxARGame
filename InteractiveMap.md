@@ -15,6 +15,10 @@
 - [ ] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
 - [ ] 選取UI position 位置
 - [ ] 選取UI 優化 
-- [ ] 移動`MapCamera`後，回到`Player`位置的
+
+## Enhancement
+- [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
+- [ ] Update Map : https://github.com/mapbox/mapbox-unity-sdk/issues/792
+
 
 
