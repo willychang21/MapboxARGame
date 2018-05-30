@@ -18,7 +18,11 @@
 
 ## Enhancement
 - [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
-- [ ] Update Map : https://github.com/mapbox/mapbox-unity-sdk/issues/792
+- [ ] Update Map 
+https://github.com/mapbox/mapbox-unity-sdk/issues/792      
+https://github.com/mapbox/mapbox-unity-sdk/pull/704 
+                
+                  
 
 
 
