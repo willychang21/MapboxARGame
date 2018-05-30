@@ -8,7 +8,7 @@
 ### 選取建築物
 * 新增`LabelCamera`在`MapCamera`下(直接從`InteractiveStyledVectorMap`複製過來)
 * 在`Game Object Modifier`新增`HighlightModifier`,`ObjectInspector`,`ParkLayerModifier`
-![image](https://user-images.githubusercontent.com/38349902/40709240-240a69e2-6428-11e8-871c-0e670d338821.png)
+![image](https://user-images.githubusercontent.com/38349902/40709596-204ef448-6429-11e8-9c68-51bd2298b49c.png)
 
 ## 待解決問題
 - [ ] 選取UI position 位置
