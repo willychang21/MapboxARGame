@@ -10,5 +10,9 @@
 * 在`Game Object Modifier`新增`HighlightModifier`,`ObjectInspector`,`ParkLayerModifier`
 ![image](https://user-images.githubusercontent.com/38349902/40709240-240a69e2-6428-11e8-871c-0e670d338821.png)
 
+## 待解決問題
+- [ ] 選取UI position 位置
+- [ ] 選取UI 優化
+
 
 
