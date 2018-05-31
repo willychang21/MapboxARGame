@@ -11,10 +11,9 @@
 
 ![image](https://user-images.githubusercontent.com/38349902/40709596-204ef448-6429-11e8-9c68-51bd2298b49c.png)
 
-## 待解決問題
+## Bug
 - [ ] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
 - [ ] 選取UI position 位置
-- [ ] 選取UI 優化 
 
 ## Enhancement
 - [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
