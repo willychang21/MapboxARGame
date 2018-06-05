@@ -13,32 +13,32 @@ namespace Mapbox.Unity.MeshGeneration.Factories
 	public class DirectionsFactory : MonoBehaviour
 	{
 		[SerializeField]
-		AbstractMap _map;
+		AbstractMap _map; //放置地圖
 
 		[SerializeField]
-		MeshModifier[] MeshModifiers;
+		MeshModifier[] MeshModifiers;   //放置directionline & directionhight
 
 		[SerializeField]
-		Transform[] _waypoints;
+		Transform[] _waypoints;    //放置player位置 和 目的地為置
 
 		[SerializeField]
-		Material _material;
+		Material _material;   //路線材質
 
 		[SerializeField]
-		float _directionsLineWidth;
+		float _directionsLineWidth;  //路線寬度
 
 		private Directions _directions;
 		private int _counter;
 
 		GameObject _directionsGO;
 
-		protected virtual void Awake()
+		protected virtual void Awake() //腳本並沒有被致能(enable)->沒被打勾，Awake函式依然會被執行
 		{
-			if (_map == null)
+			if (_map == null) //沒map
 			{
-				_map = FindObjectOfType<AbstractMap>();
+				_map = FindObjectOfType<AbstractMap>(); //自動找有Abstractmap的物件
 			}
-			_directions = MapboxAccess.Instance.Directions;
+			_directions = MapboxAccess.Instance.Directions; 
 			_map.OnInitialized += Query;
 			_map.OnUpdated += Query;
 		}
@@ -51,8 +51,8 @@ namespace Mapbox.Unity.MeshGeneration.Factories
 
 		void Query()
 		{
-			var count = _waypoints.Length;
-			var wp = new Vector2d[count];
+			var count = _waypoints.Length;  //waypoint有幾個element
+			var wp = new Vector2d[count];  
 			for (int i = 0; i < count; i++)
 			{
 				wp[i] = _waypoints[i].GetGeoPosition(_map.CenterMercator, _map.WorldRelativeScale);
