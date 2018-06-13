@@ -9,22 +9,18 @@ namespace Mapbox.Examples
 	{
        
         [SerializeField]
-		private Transform _wrapperMarker;
-		[SerializeField]
-		private Transform _infoPanel;
-		[SerializeField]
-		private Text _info;
+	private Transform _wrapperMarker;
+	[SerializeField]
+	private Transform _infoPanel;
+	[SerializeField]
+	private Text _info;
         [SerializeField]
         private Transform _landmark;
 
 
         private Vector3[] _targetVerts;
-		private VectorEntity _selectedFeature;
+	private VectorEntity _selectedFeature;
         
-
-
-
-
 
         void Update()
 		{
