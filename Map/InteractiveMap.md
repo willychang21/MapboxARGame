@@ -16,9 +16,9 @@
 - [x] 在Map介面選物件會選到AR的物件
 
 ### Bug Fix
-*`FeatureUiMarker.cs` Modify
-*add image in `selector` object 
-*add new `MapCam` Tag
+* `FeatureUiMarker.cs` Modify
+* add image in `selector` object 
+* add new `MapCam` Tag
 
 ## Enhancement
 - [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
