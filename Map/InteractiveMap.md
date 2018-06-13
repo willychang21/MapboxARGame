@@ -12,8 +12,8 @@
 ![image](https://user-images.githubusercontent.com/38349902/40709596-204ef448-6429-11e8-9c68-51bd2298b49c.png)
 
 ## Bug
-- [ ] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
-- [ ] 在Map介面選物件會選到AR的物件
+- [x] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
+- [x] 在Map介面選物件會選到AR的物件
 
 ## Enhancement
 - [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
