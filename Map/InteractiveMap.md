@@ -14,6 +14,8 @@
 ## Bug
 - [x] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
 - [x] 在Map介面選物件會選到AR的物件
+- [ ] Object reference not set to an instance of an object   
+      Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
 
 ### Bug Fix
 * `FeatureUiMarker.cs` Modify
