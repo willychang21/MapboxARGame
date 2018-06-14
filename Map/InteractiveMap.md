@@ -21,7 +21,9 @@
 * add new `MapCam` Tag
 
 ## Enhancement
-- [ ] 移動`MapCamera`後，回到`Player`位置的Buttom
+- [ ] add return `Player` position Buttom after moving `MapCamera`
+- [ ] add map marker display animation
+
 
  
 
