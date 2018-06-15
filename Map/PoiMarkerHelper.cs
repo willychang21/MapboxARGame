@@ -1,7 +1,6 @@
-
-	using UnityEngine;
-	using Mapbox.Unity.MeshGeneration.Interfaces;
-	using System.Collections.Generic;
+    using UnityEngine;
+    using Mapbox.Unity.MeshGeneration.Interfaces;
+    using System.Collections.Generic;
     using Mapbox.Unity.MeshGeneration.Data;
     using UnityEngine.UI;
     using Mapbox.Unity.MeshGeneration.Modifiers;
