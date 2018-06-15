@@ -21,7 +21,7 @@
         }
 
         public void Set(Dictionary<string, object> props)
-		{
+	{
 			_props = props;
             
 
