@@ -14,13 +14,15 @@
 ## Bug
 - [x] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
 - [x] 在Map介面選物件會選到AR的物件
-- [ ] Object reference not set to an instance of an object   
+- [x] Object reference not set to an instance of an object   
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
+- [ ] the marker won't change the screenpos when zooming the map
+- [ ] the maker will dispaly mutipule points at the same time
 
 ### Bug Fix
-* `FeatureUiMarker.cs` Modify
+* `FeatureUiMarker.cs` Modify -> change to `PoiMarkerHelper.cs`
 * add image in `selector` object 
-* add new `MapCam` Tag
+* add new `MapCam` Tag -> doesn't work but have been solved in `PoiMarkerHelper.cs`
 
 ## Enhancement
 - [ ] add return `Player` position Buttom after moving `MapCamera`
