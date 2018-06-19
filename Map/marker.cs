@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class marker : MonoBehaviour {
 
-    static public int markercheck = 0;
+    static public int markercheck = 0;//check only open 1 marker
     
 }
