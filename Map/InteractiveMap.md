@@ -5,27 +5,29 @@
 
 ![image](https://user-images.githubusercontent.com/38349902/40708021-e4e2a638-6424-11e8-8335-f5da65bd6fe5.png)
 
-### 選取建築物
-* 新增`LabelCamera`在`MapCamera`下(直接從`InteractiveStyledVectorMap`複製過來)
-* 在`Game Object Modifier`新增`HighlightModifier`,`ObjectInspector`,`ParkLayerModifier`
+### Select Building
 
-![image](https://user-images.githubusercontent.com/38349902/40709596-204ef448-6429-11e8-9c68-51bd2298b49c.png)
+* add `PoiMarkerHelper.cs` on object(spawned by `PrefabModifier.cs`) ,it will call `selector` object 
+
 
 ## Bug
 - [x] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
 - [x] 在Map介面選物件會選到AR的物件
 - [x] Object reference not set to an instance of an object   
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
-- [ ] the marker won't change the screenpos when zooming the map
-- [ ] the maker will dispaly mutipule points at the same time
+- [x] the maker will dispaly mutipule points at the same time
+- [ ] the marker won't change the screenpos when zooming the map(need to check on time)
+
 
 ### Bug Fix
 * `FeatureUiMarker.cs` Modify -> change to `PoiMarkerHelper.cs`
 * add image in `selector` object 
 * add new `MapCam` Tag -> doesn't work but have been solved in `PoiMarkerHelper.cs`
+* add `marker.cs` to check mutipule point generate 
 
 ## Enhancement
-- [ ] add return `Player` position Buttom after moving `MapCamera`
+- [ ] add buttom in marker's image(decide the user's destination)
+- [ ] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
 - [ ] add map marker display animation
 
 
