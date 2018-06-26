@@ -1,7 +1,7 @@
 ### Show the building
-* `culling mask` 除了 `Path` 以外，其他都要勾選。
-* `CameraMovement` 顧名思義，移動鏡頭用的。
-* `DebugPathCamera` 取消勾選。
+* `culling mask` except `Path` ，others need to check。
+* `CameraMovement` use for moving camera(zooming & panaling)。
+* `DebugPathCamera` cacel the check。
 
 ![image](https://user-images.githubusercontent.com/38349902/40708021-e4e2a638-6424-11e8-8335-f5da65bd6fe5.png)
 
@@ -11,8 +11,7 @@
 
 
 ## Bug
-- [x] `InteractiveSelectionCanvas`會顯示在`ARCamera`裡
-- [x] 在Map介面選物件會選到AR的物件
+- [x] `InteractiveSelectionCanvas`will display in `ARCamera`
 - [x] Object reference not set to an instance of an object   
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
 - [x] the maker will dispaly mutipule points at the same time
