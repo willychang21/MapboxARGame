@@ -1,4 +1,4 @@
-### 地圖顯示建築物
+### Show the building
 * `culling mask` 除了 `Path` 以外，其他都要勾選。
 * `CameraMovement` 顧名思義，移動鏡頭用的。
 * `DebugPathCamera` 取消勾選。
@@ -29,6 +29,28 @@
 - [ ] add buttom in marker's image(decide the user's destination)
 - [ ] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
 - [ ] add map marker display animation
+
+## Reference
+
+### Issue 802
+#### Interactive Map In WorldScale AR 
+https://github.com/mapbox/mapbox-unity-sdk/issues/802
+
+### Issue 827
+#### DirectionsFactory missing transform
+https://github.com/mapbox/mapbox-unity-sdk/issues/827
+
+### Issue 838
+#### InteractiveSelectionCanvas in wrong transform
+https://github.com/mapbox/mapbox-unity-sdk/issues/838
+
+### Issue 844
+#### How can I find a 3D POI Marker's longitude and latitude?
+https://github.com/mapbox/mapbox-unity-sdk/issues/844
+
+### Issue 861
+#### FeatureUiMarker.cs problem
+https://github.com/mapbox/mapbox-unity-sdk/issues/861
 
 
  
