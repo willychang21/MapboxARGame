@@ -14,4 +14,11 @@
 #### Waiting for Cloning
 ![image](https://user-images.githubusercontent.com/38349902/41905744-a07dd8e6-796e-11e8-90ea-8a58c637e28f.png)
 
+### Step 5
+#### Run `update-mapbox-unity-sdk-core.bat` 
+![image](https://user-images.githubusercontent.com/38349902/41947178-b32a5922-79e8-11e8-8914-ccb5d896aca7.png)
+
+### Step 6
+#### Open `sdkproject` in `C:\Users\username\Documents\GitHub\mapbox-unity-sdk`
+![image](https://user-images.githubusercontent.com/38349902/41947237-03e1867e-79e9-11e8-837e-045700e7b18a.png)
 
