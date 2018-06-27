@@ -15,7 +15,7 @@
 - [x] Object reference not set to an instance of an object   
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
 - [x] the maker will dispaly mutipule points at the same time
-- [ ] the marker won't change the screenpos when zooming the map(need to check on time)
+- [x] the marker won't change the screenpos when zooming the map(need to check on time)
 
 
 ### Bug Fix
@@ -23,6 +23,7 @@
 * add image in `selector` object 
 * add new `MapCam` Tag -> doesn't work but have been solved in `PoiMarkerHelper.cs`
 * add `marker.cs` to check mutipule point generate 
+* change `Mapcam's projection` to `Orthographic`
 
 ## Enhancement
 - [ ] add buttom in marker's image(decide the user's destination)
