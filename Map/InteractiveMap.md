@@ -52,6 +52,10 @@ https://github.com/mapbox/mapbox-unity-sdk/issues/844
 #### FeatureUiMarker.cs problem
 https://github.com/mapbox/mapbox-unity-sdk/issues/861
 
+### Issue 885
+#### Direction will ignore footprint 
+https://github.com/mapbox/mapbox-unity-sdk/issues/885
+
 
  
 
