@@ -29,6 +29,7 @@
 - [ ] add buttom in marker's image(decide the user's destination)
 - [ ] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
 - [ ] add map marker display animation
+- [ ] landmark list
 - [ ] improve the road texture
 
 ## Reference
