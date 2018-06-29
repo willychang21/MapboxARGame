@@ -24,6 +24,7 @@
 * add new `MapCam` Tag -> doesn't work but have been solved in `PoiMarkerHelper.cs`
 * add `marker.cs` to check mutipule point generate 
 * change `Mapcam's projection` to `Orthographic`
+* `directionsfactory.cs`code`var _directionResource = new DirectionResource(wp, RoutingProfile.Driving)`Driving change to Walking
 
 ## Enhancement
 - [ ] add buttom in marker's image(decide the user's destination)
