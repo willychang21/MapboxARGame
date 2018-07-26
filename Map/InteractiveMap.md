@@ -9,14 +9,14 @@
 
 * add `PoiMarkerHelper.cs` on object(spawned by `PrefabModifier.cs`) ,it will call `selector` object 
 
-
 ## Bug
 - [x] `InteractiveSelectionCanvas`will display in `ARCamera`
 - [x] Object reference not set to an instance of an object   
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
-- [x] the maker will dispaly mutipule points at the same time
-- [x] the marker won't change the screenpos when zooming the map(need to check on time)
-- [ ] the direction & marker will display in the beginning 
+- [x] maker will dispaly mutipule points at the same time
+- [x] marker won't change the screenpos when zooming the map(need to check on time)
+- [ ] direction & marker will display in the beginning 
+- [ ] marker should change the rotation depending on camera
 
 
 ### Bug Fix
