@@ -16,6 +16,7 @@
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
 - [x] the maker will dispaly mutipule points at the same time
 - [x] the marker won't change the screenpos when zooming the map(need to check on time)
+- [ ] the direction & marker will display in the beginning 
 
 
 ### Bug Fix
@@ -29,8 +30,8 @@
 ## Enhancement
 - [ ] add buttom in marker's image(decide the user's destination)
 - [ ] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
-- [ ] add map marker display animation
-- [ ] add landmark list
+- [ ] add map marker display animation(later)
+- [ ] add landmark list(how to get the object's local position ??)
 - [ ] improve the road texture
 
 ## Reference
@@ -59,7 +60,9 @@ https://github.com/mapbox/mapbox-unity-sdk/issues/861
 #### Direction will ignore footprint 
 https://github.com/mapbox/mapbox-unity-sdk/issues/885
 
-
+### Issue 931
+#### Arrow road in AR problem 
+https://github.com/mapbox/mapbox-unity-sdk/issues/931
  
 
 
