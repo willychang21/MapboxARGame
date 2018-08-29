@@ -12,7 +12,8 @@ public class PoiMarkerHelper : MonoBehaviour, IFeaturePropertySettable
 	private GameObject waypoint;
 	private Camera cam;
 	private Transform waypointrans;
-	private Vector3 screenPoint;
+	public Image marker;
+	static public bool markcheck = true;
 
 
 	void Start()
@@ -29,21 +30,29 @@ public class PoiMarkerHelper : MonoBehaviour, IFeaturePropertySettable
 	void FindObject()
 	{
 		mapcam = GameObject.Find("MapCamera");
-		waypoint = GameObject.Find("Waypoint2");
+		waypoint = GameObject.Find("pinpoint");		
 		cam = mapcam.GetComponent<Camera>();
 		waypointrans = waypoint.GetComponent<Transform>();
+		
 
 	}
 
 	public void OnMouseUpAsButton()
 	{
-
 		Debug.Log("mappos :" + gameObject.GetComponent<Transform>().position);						
         foreach (var prop in _props)
         {
             Debug.Log(prop.Key + ":" + prop.Value);
         }
-		waypointrans.position = gameObject.GetComponent<Transform>().position;
+		if (markcheck)
+		{
+			Instantiate(marker, cam.WorldToScreenPoint(gameObject.GetComponent<Transform>().position), new Quaternion(0, 0, 0, 0));
+			markcheck = false;
+			if (waypoint.activeInHierarchy)
+			{
+				waypointrans.position = gameObject.GetComponent<Transform>().position;
+			}
+		}
 	}
 
 
