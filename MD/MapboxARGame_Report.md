@@ -16,6 +16,7 @@
     * 用圖講解
   * 系統架構
     * 用圖講解
+      
 * APP設計與實作
   * Vuforia vs ARcore
   * Mapbox React Native AR vs Mapbox Unity AR vs SceneKit AR
@@ -23,6 +24,7 @@
   * Map
     * Image
     * Direction Factory
+       * Mapbox Direction API   
 * APP成果與討論
   * 特色
 * 結論
