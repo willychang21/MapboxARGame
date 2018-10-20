@@ -15,8 +15,8 @@
       Mapbox.Examples.FeatureUiMarker.Snap () (at Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs:69)
 - [x] maker will dispaly mutipule points at the same time
 - [x] marker won't change the screenpos when zooming the map(need to check on time)
-- [ ] direction & marker will display in the beginning 
-- [ ] marker should change the rotation depending on camera
+- [x] direction & marker will display in the beginning 
+- [x] marker should change the rotation depending on camera
 
 
 ### Bug Fix
@@ -28,11 +28,11 @@
 * `directionsfactory.cs`code`var _directionResource = new DirectionResource(wp, RoutingProfile.Driving)`Driving change to Walking
 
 ## Enhancement
-- [ ] add buttom in marker's image(decide the user's destination)
-- [ ] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
+- [x] add buttom in marker's image(decide the user's destination)
+- [x] add return `Player` position Buttom after moving `MapCamera` (reference the other ar scence)
 - [ ] add map marker display animation(later)
 - [x] add landmark list(how to get the object's local position ??)
-- [ ] improve the road texture
+- [x] improve the road texture
 
 ## Reference
 
