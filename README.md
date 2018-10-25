@@ -33,14 +33,18 @@
   * Mapbox React Native AR vs Mapbox Unity AR vs SceneKit AR
   * Google Map API vs Mapbox Direction API
   * Map
-    * Image
     * DirectionFactory.cs
 * APP成果與討論
     * 登入畫面
     * 新手教學
     * AR介面
+      * 各大樓功能
       * 學校建築物介紹
+      * AR路線導覽
     * Map介面
+      * Map路線導覽
+      * 返回使用者位置Bottom
+    * 建築物選擇清單
     * 背包功能
 * 結論
   * 總結
