@@ -23,7 +23,8 @@ Using Unity/Mapbox/ARCore to develop Location Based AR Game
   * 功能簡介
     * 用圖講解
   * 系統架構
-    * 用圖講解
+    ![image](https://user-images.githubusercontent.com/38349902/47492262-2bacef00-d87f-11e8-8750-39ec28a676e3.png)
+
       
 * APP設計與實作
   * Vuforia vs ARcore  
