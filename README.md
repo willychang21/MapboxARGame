@@ -46,6 +46,9 @@ Using Unity/Mapbox/ARCore to develop Location Based AR Game
   * 未來展望
 * 參考文獻 
   * [Embedded Virtual Views for Augmented Reality Navigation,2011](https://pdfs.semanticscholar.org/cbdb/3ee9a33331f8c4df78c355e90e640e998457.pdf)
+  * [Augmented reality navigation systems,2006](https://www.researchgate.net/publication/220606626_Augmented_reality_navigation_systems)
+  * [Comparative Assessment of Mobile Navigation Applications using 2D Maps and Augmented Reality Interfaces,2016](https://www.thinkmind.org/download.php?articleid=achi_2016_20_20_20279)
+
   
   
 
