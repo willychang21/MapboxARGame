@@ -28,8 +28,7 @@
   * 系統架構
     ![image](https://user-images.githubusercontent.com/38349902/47501552-666f5100-d898-11e8-83b0-24e27145cfa8.png)
      
-* APP設計與實作
-  * Vuforia vs ARcore  
+* APP設計與實作  
   * Mapbox React Native AR vs Mapbox Unity AR vs SceneKit AR
   * Google Map API vs Mapbox Direction API
   * Map
@@ -48,9 +47,17 @@
     * 背包功能
 * 結論
   * 總結
+    * 本專題最終製作出一款導覽APP為結合互動性與趣味性之AR導覽APP，以導覽為主要目的，透過AR或Map方式呈現，讓使用者拾取物件小遊戲得到成就感，除了到達目的地以外，更能夠了解相關的歷史資訊，讓大一新生或是訪客們更加地了解輔大校園。
   * 工作分工
+    * 張竣傑：地圖設計、導航
+    * 黃湧文
+    * 鍾尚值
   * 開發心得
+    * 張竣傑 : 透過畢業專題習得了大量的知識與經驗，雖說過程相當辛苦，但看到最後的成品時，就覺得不會愧對自己的努力與付出了，也要感謝組員們的努力，才能有如今的學力至上。
+    * 黃湧文
+    * 鍾尚值
   * 未來展望
+    * 目前開發的學力至上這款APP缺乏
 * 參考文獻 
   * [Embedded Virtual Views for Augmented Reality Navigation,2011](https://pdfs.semanticscholar.org/cbdb/3ee9a33331f8c4df78c355e90e640e998457.pdf)
   * [Augmented reality navigation systems,2006](https://www.researchgate.net/publication/220606626_Augmented_reality_navigation_systems)
