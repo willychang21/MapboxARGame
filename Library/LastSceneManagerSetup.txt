@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/FJU/Scenes/WorldScaleAR.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/FJU/Scenes/Open.unity
+  isLoaded: 1
+  isActive: 0
