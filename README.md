@@ -1,72 +1,29 @@
 # MapboxARGame
-* 摘要
-  * 隨著 Pokemon go 爆紅之後，擴增實境（Augmented Reality, AR）技術漸漸成為炙手可熱的技術，學力至上這款APP是基於地理位置服務(Location-Based Service，LBS 又稱適地性服務、移動定位服務、位置服務)並結合AR所製成的。APP取得使用者位置後，告知使用者輔大校園各個建築的所在位置以及路線導覽，讓使用者能快速了解自己想要前往之目的地的方向。使用者介面(User Interface)上結合AR，使得導覽的內容以更直觀的方式顯示在行動裝置的螢幕上，如此一來能夠避免傳統的地圖導覽時需一一對照地圖才能使用之不便，並且將操作方式簡化方便使用者作操作。開發平台上使用Untiy，並且結合Mapbox-unity-sdk，使得支援Android和iOS系統。
-  * 關鍵字：擴增實境、校園導覽、LBS
-* 緒論
-  * 前言
-    * 科技的發展日新月異，地圖從早期傳統的紙本：傳統的導覽方式都是以圖片和文字搭配地圖的方式在呈現，所以每當使用者對於地圖的使用不是很熟悉時，那麼導覽的功能會大大降低，甚至會造成一定程度的誤解，進而迷路等違反地圖設計之初衷的結果。其實使用者最在使用時當下最迫切需要的就是要知道自己在哪裡以及距離目的地的方向，這些問題都是傳統地圖導覽沒辦法克服級解決的。到今天，因為智慧型裝置的普及化，現今已經有相當多實用的APP，如：Google Map、Apple Map，我們希望能夠除了APP能夠除了導覽以外，能夠增加一些互動性以及趣味性。
-    * 擴增實境（Augmented Reality，簡稱 AR）是一種實時地計算攝影機影像的位置及角度並加上相應圖像的技術，這種技術的目標是在螢幕上把虛擬世界套在現實世界並進行互動，擴增實境於 1990 年提出。北卡大學 R. Azuma 於 1997 年提出擴增實境應包括三個方面的內容：虛擬物與現實結合、即時、三維(Azuma,1997)。由於擴增實境可以直接將資訊即時加在影像上，因此常被應用在導航導覽甚至娛樂上。而本研究專題是之擴增實境導覽系統，並以輔仁大學校園為例，提供各種智慧型行動裝置平台上的使用者可透過網路下載輔大校園之導覽，使得來到輔大的訪客都可以獲得最新最即時之導覽資訊。
-  * 動機與目的
-    * 對於初入輔大的大一新鮮人，亦或是初訪輔大的訪客們，每當進入偌大的輔仁校園，不知道何去何從時，只能透過輔大入口附近的校園導覽圖尋找，但卻不一定找的到目的地，最後只能透過詢問路人的方式到達目的地，於是我們決定作一款專為輔大設計的導覽APP。
-    * 然而我們不只是要做普通的傳統型導覽APP，我們希望能夠結合擴增實境，利用一些有趣的小遊戲，除了導覽以外，結合校內各個建築的歷史，因此讓使用者在使用學力至上時，除了在導覽過程中不會趕到無聊，也可透過校園介紹更了解輔仁。
-    * 經過多次討論與評估，我們決定讓遊戲盡量不要太過複雜以至於干擾到導覽及介紹的進行，由於智慧行動裝置的畫面大小有限，所以團隊希望讓使用者介面更為簡化，並透過教學方式讓使用者輕易上手。
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Unity' src='https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=Unity&logoColor=white&labelColor=black&color=black'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Mapbox' src='https://img.shields.io/badge/Mapbox-100000?style=for-the-badge&logo=Mapbox&logoColor=white&labelColor=20B7F4&color=20B7F4'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Google' src='https://img.shields.io/badge/ARCore-100000?style=for-the-badge&logo=Google&logoColor=white&labelColor=FF0000&color=FF0000'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Apple' src='https://img.shields.io/badge/ARCore-100000?style=for-the-badge&logo=Apple&logoColor=white&labelColor=999999&color=999999'/></a>
+* Abstract
+  * With the popularity of Pokemon go, Augmented Reality (AR) technology has become a big hit, and this app is based on Location-Based Service (LBS) combined with AR. The app provides users with the location of each building on the university campus and a route guide so that users can quickly understand the direction of their desired destination. The integration of AR into the User Interface allows the content to be displayed on the mobile device screen in a more intuitive way, thus avoiding the inconvenience of having to cross-reference the map one by one to use the traditional map navigation, and simplifying the operation for the user. The development platform uses Unity and combines with Mapbox-unity-SDK to support Android and iOS systems.
+* Introduction
+  * Preface
+    * Technology is advancing rapidly, and maps have been used from the early days of traditional paper: traditional navigation methods are presented in the form of pictures and text with maps, so whenever users are not familiar with the use of maps, then the function of the guide will be greatly reduced, and may even cause a certain degree of misunderstanding, which may lead to getting lost and other results that defeat the original purpose of the map design. In fact, the most pressing need of users is to know where they are and the direction of their destination, which are problems that traditional map guides cannot overcome. Today, due to the popularization of smart devices, there are many useful apps, such as Google Maps and Apple Map, and we hope to add some interactivity and fun to the APP in addition to navigation.
+
+    * Augmented Reality (AR) is a technology that calculates the position and angle of a camera image in real time and adds the corresponding image. In 1997, R. Azuma of the University of North Carolina proposed that augmented reality should include three aspects: integration of virtual objects with reality, real-time, and three-dimensional (Azuma, 1997). Since augmented reality can directly add information to images in real-time, it is often used in navigation and even entertainment. In this study, the augmented reality tour system is used as an example to provide users on various smart mobile devices to download the tour of Fu Jen Catholic University campus through the Internet, so that visitors to Fu Jen Catholic University can get the latest and most real-time tour information.
+
+  * Motivation and Purpose
+    * For freshmen entering Fu Jen Catholic University or visitors to Fu Jen Catholic University, whenever they enter the huge Fu Jen campus and don't know where to go, they can only look through the campus map near the entrance of Fu Jen Catholic University, but they can't always find their destination.
+
+
+    * We hope to combine augmented reality with some interesting games and the history of each building on campus so that users will not only be bored during the touring process but also get to know more about Fu Jen Catholic University through the campus introduction.
+    * After many discussions and evaluations, we decided to keep the game as simple as possible, so that it would not interfere with the navigation and introduction.
     
-* 開發工具介紹
-   * Unity
-   * Visual Studio
-   * ARcore
-   * ARKit
-   * Mapbox studio
-   * Git
-   * Github
-      * 版本控制方面，本專題使用的是Git，並使用GitHub服務。Git能清楚告知各個版本的不同之處，若現今版本有出錯，也能找回前一個版本，不會讓之前的辛苦白費。
-      * 文字編輯器方面，本專題使用的是 Visual Studio，並使用C#撰寫
-      * 遊戲開發方面，本專題使用的是 Unity，透過 Unity3D，使遊戲的所有功能與內容都能夠透過程式編寫有效的實現，並且使用mapbox-unity-sdk套件進行開發，而ARcore以及ARKit均包含在裡面。
-      * 地圖設計方面，本專題使用的是Mapbox studio，利用客製化地圖功能，設計輔大的地圖。
-  * 功能簡介
-    * 開始登入畫面，進入後有分為AR以及Map選擇，如果只是想進行傳統的路線導航，可點擊右下角地圖的Bottom，但想要體驗AR導覽加上學員介紹的話，便可點擊左下角的目的地選擇清單，選擇清單裡包含了輔大的所有建築物和特殊景點，導覽過程中，路上會隨機冒出物件，透過時取物件提升經驗，當背包有足夠的物件時，可解鎖建築物，解鎖建築後，就可獲的建築物相關的歷史資訊。餐廳、圖書館和特殊景點都有相對應的功能，使用者可以到這些地方得到自己所缺乏的物件，解鎖完全部建築後，就可從學力至上畢業了！
-  * 系統架構
-    ![image](https://user-images.githubusercontent.com/38349902/47501552-666f5100-d898-11e8-83b0-24e27145cfa8.png)
+  * Features Introduction
+    * If you just want to do the traditional route navigation, you can click on the Bottom of the map in the bottom right corner, but if you want to experience the AR tour with the student introduction, you can click on the destination selection list in the bottom left corner. You can unlock the building when you have enough objects in your backpack. After unlocking the building, you can get information about its history of the building. The restaurant, library, and special attractions all have corresponding functions, so users can go to these places to get the objects they lack, and after unlocking all the buildings, they can graduate from their studies!
      
-* APP設計與實作  
-  * Mapbox React Native AR vs Mapbox Unity AR vs SceneKit AR
-  * Google Map API vs Mapbox Direction API
-  * Map
-    * DirectionFactory.cs
-* APP成果與討論
-    * 登入畫面
-    * 新手教學
-    * AR介面
-      * 各大樓功能
-      * 學校建築物介紹
-      * AR路線導覽
-    * Map介面
-      * Map路線導覽
-      * 返回使用者位置Bottom
-    * 建築物選擇清單
-      * 建築物選擇清單是主要是讓使用者可以直接透過
-    * 背包功能
-* 結論
-  * 總結
-    * 本專題最終製作出一款導覽APP為結合互動性與趣味性之AR導覽APP，以導覽為主要目的，透過AR或Map方式呈現，讓使用者拾取物件小遊戲得到成就感，除了到達目的地以外，更能夠了解相關的歷史資訊，讓大一新生或是訪客們更加地了解輔大校園。
-  * 工作分工
-    * 張竣傑：地圖設計、導航
-    * 黃湧文
-    * 鍾尚值
-  * 開發心得
-    * 張竣傑 : 透過畢業專題習得了大量的知識與經驗，雖說過程相當辛苦，但看到最後的成品時，就覺得不會愧對自己的努力與付出了，也要感謝組員們的努力，才能有如今的學力至上。
-    * 黃湧文
-    * 鍾尚值
-  * 未來展望
-    * 目前開發的學力至上這款APP缺乏
-* 參考文獻 
-  * [Embedded Virtual Views for Augmented Reality Navigation,2011](https://pdfs.semanticscholar.org/cbdb/3ee9a33331f8c4df78c355e90e640e998457.pdf)
-  * [Augmented reality navigation systems,2006](https://www.researchgate.net/publication/220606626_Augmented_reality_navigation_systems)
-  * [Comparative Assessment of Mobile Navigation Applications using 2D Maps and Augmented Reality Interfaces,2016](https://www.thinkmind.org/download.php?articleid=achi_2016_20_20_20279)
-  http://www.tgis.org.tw/files/recruit/41_d7b0f246.pdf
+
+
 
   
   
+
 
 
 
