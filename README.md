@@ -1,22 +1,30 @@
 # MapboxARGame
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Unity' src='https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=Unity&logoColor=white&labelColor=black&color=black'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Mapbox' src='https://img.shields.io/badge/Mapbox-100000?style=for-the-badge&logo=Mapbox&logoColor=white&labelColor=20B7F4&color=20B7F4'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Google' src='https://img.shields.io/badge/ARCore-100000?style=for-the-badge&logo=Google&logoColor=white&labelColor=FF0000&color=FF0000'/></a><a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Apple' src='https://img.shields.io/badge/ARKit-100000?style=for-the-badge&logo=Apple&logoColor=white&labelColor=999999&color=999999'/></a>
-* Abstract
-  * With the rising popularity of Pokemon Go, Augmented Reality (AR) technology has gained widespread attention. The app is based on Location-Based Service (LBS) combined with AR, providing users with the location of various buildings on a university campus and a navigation guide to help users quickly understand the direction to their desired destination. The incorporation of AR into the User Interface makes the content displayed on the mobile device screen more intuitive, eliminating the need to cross-reference traditional maps, and simplifying the user experience. The development platform used is Unity and it is combined with Mapbox-unity-SDK to support both Android and iOS systems.
-* Introduction
-  * Preface
-    * As technology continues to advance, maps have evolved from traditional paper versions to digital forms. Traditional navigation methods often rely on pictures and text overlaid on maps, which can be confusing for users who are not familiar with map reading. This can lead to misunderstandings and getting lost, defeating the purpose of the map. With the widespread use of smart devices, many useful navigation apps, such as Google Maps and Apple Maps, have become available. However, these apps often lack interactivity and fun. Our goal is to create an app that not only provides accurate navigation but also adds an interactive and enjoyable element to the user experience..
+## Abstract
 
-    * Augmented Reality (AR) is a technology that calculates the position and angle of a camera image in real-time and overlays corresponding virtual images. In 1997, R. Azuma of the University of North Carolina proposed that AR should include three key aspects: integration of virtual objects with reality, real-time updates, and three-dimensional representations (Azuma, 1997). Because AR can provide real-time information overlaid on images, it is commonly used in navigation and entertainment. In this study, an AR-based tour system is used as an example to provide users with access to the Fu Jen Catholic University campus tour via smart mobile devices and the internet, allowing visitors to the university to receive the most up-to-date and accurate tour information.
+The popularity of Pokemon Go has spotlighted Augmented Reality (AR) technology, leading to innovative applications like a university campus tour app. This app combines Location-Based Service (LBS) with AR to guide users to various campus buildings, enhancing navigation with intuitive, real-time visual cues on a mobile device. Developed on Unity and integrating the Mapbox-unity-SDK, it supports both Android and iOS platforms, streamlining user experience by eliminating the need for traditional maps.
 
-  * Motivation and Purpose
-    * For first-time students or visitors to Fu Jen Catholic University, navigating the large campus can be overwhelming. They may rely on the campus map located near the entrance, but finding their desired destination may still be challenging. With our proposed AR-based tour system, they can easily access the latest and most accurate information, including the location and direction of their destination, in real-time through their mobile device, making it easier to navigate the campus and reach their desired destination.
+## Introduction
+We utilize Augmented Reality technology combined with a guide and game approach, allowing users who are unsure of how to navigate to their destination upon entering Fu Jen Catholic University's campus to use this app. As users follow the path outlined by the app, they are offered games that involve collecting items and unlocking achievements related to various buildings, thereby learning about the profound and legendary historical stories behind Fu Jen Catholic University.
 
-    * Our goal is to enhance the user experience by incorporating augmented reality and interactive elements, such as games, into the tour system. In addition to providing accurate navigation, we also aim to make the touring process more engaging by incorporating interesting games and providing historical information about each building on campus. This way, users can not only avoid boredom but also learn more about Fu Jen Catholic University through the campus introduction.
-    * After careful consideration and evaluation, we have decided to keep the interactive game element simple, so it will not distract or interfere with the main purpose of the tour, which is navigation and providing historical information about each building on campus. This way, users can focus on finding their desired destination and learning about the university while still enjoying the interactive game.
-    
-  * Features Introduction
-    * Our AR-based tour system offers both traditional route navigation and an interactive AR experience with student-led introductions. To access traditional navigation, users can click on the map icon located on the bottom right corner of the screen. To access the AR experience, users can click on the destination selection list located on the bottom left corner of the screen. The system includes a game element where users collect virtual objects by visiting different locations on campus, such as the restaurant, library, and special attractions. These objects can then be used to unlock information about the history of various buildings on campus. Once all buildings have been unlocked, users can "graduate" from their virtual tour.
-     
+## Features
+### User Interface
+| MAP UI| AR UI| 
+| -------- | -------- | 
+| ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/70eed5b2-3a64-468c-89c8-5159d23c6505)| ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/24448ac3-afee-4953-a7e7-0f6dc691164d)| 
+
+In the interface of the game and tour, the top right corner displays the level and experience bar. In the bottom right corner, there are three buttons arranged from top to bottom with the functionalities of opening/closing the backpack, activating AR mode, and opening the map, respectively. On the bottom left, there are two buttons: the upper button centers the map, placing the user's location in the middle to easily show where they are; the lower button activates the AR tour assistant, which, upon clicking, displays a drop-down menu for users to select their destination.
+
+### MAP
+| MAP UI| MAP Dropdown| 
+| -------- | -------- | 
+| ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/70eed5b2-3a64-468c-89c8-5159d23c6505)|  ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/be08b63a-6ec7-4892-a9b7-117e29418ec1)| 
+
+There are two ways for users to select a destination: the first is to directly click on the destination on the map; the second is to choose the destination through the Dropdown. After executing one of these two methods, the app immediately plans the route and provides navigation for the user.
+
+| MAP Navigation| AR Navigation| 
+| -------- | -------- | 
+| ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/ac577333-09e3-4757-ab39-49c98593a612)| ![image](https://github.com/willychang21/MapboxARGame/assets/38349902/2cf33aae-c12e-4f83-9b1f-5f07cb8349a2)| 
 
 
 
